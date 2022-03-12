@@ -279,7 +279,7 @@ main .mainContent {
     margin: 15px 25px;
     border-radius: 60px;
     transition: .2s all ease;
-    border: 2px solid #ffffff30;
+    border: 2px solid #ffffff30
 }
 
 .socialM i:hover {
@@ -1105,7 +1105,7 @@ footer::after {
         left: -1%;
         width: 80%;
         z-index: 1;
-        overflow: initial;
+        overflow: initial
     }
     .aboutMore h1 {
         font-size: 5.5vw;
@@ -1214,7 +1214,7 @@ footer::after {
         padding: 3vw 2vw;
         background: #700000;
         width: 3rem;
-        margin: 8px 5px;
+        margin: 8px 5px
     }
     .s-5 {
         width: 115%;
@@ -1279,7 +1279,7 @@ footer::after {
     .s-2 {
         border-radius: 20px;
         top: 29.3%;
-        left: 53%;
+        left: 53%
     }
     .s-3 {
         border-radius: 20px;
