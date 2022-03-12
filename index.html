@@ -16,7 +16,13 @@
 </head>
 
 <body>
-
+    <div id="preloader">
+        <div class="spinner">
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>
     <main>
         <nav>
             <aside>
@@ -389,6 +395,12 @@
     <script src="assets/js/swiper.js"></script>
     <script src="assets/js/aos.js"></script>
     <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script>
+        jQuery(window).on('load', function() {
+            jQuery("#status").fadeOut();
+            jQuery("#preloader").delay(350).fadeOut("slow");
+        });
+    </script>
     <script>
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 8,
